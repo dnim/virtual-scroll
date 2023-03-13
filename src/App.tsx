@@ -6,8 +6,7 @@ import VirtualScrollContainer from "./VirtualScrollContainer";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -17,12 +16,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Header
         </a>
       </header>
-      <div>
-        <VirtualScrollContainer />
-      </div>
+      <VirtualScrollContainer />
 
       <div>THE END</div>
     </div>
